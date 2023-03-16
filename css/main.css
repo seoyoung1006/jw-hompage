@@ -337,13 +337,13 @@ footer .foot {
   position: absolute;
   width: 2px;
   height: 65px;
-  left: 720px;
+  left: 670px;
   top: 3px;
   background-color: rgb(97, 162, 199);
 }
 footer .info {
   position: absolute;
-  left: 700px;
+  left: 650px;
   height: 75px;
   width: 400px;
 }
