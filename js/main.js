@@ -32,11 +32,11 @@ aboutEl.addEventListener('click', function() {
 })
 productEl.addEventListener('click', function() {
   gsap.to(window, .5, {
-    scrollTo: 400
+    scrollTo: 700
   })
 })
 emailEl.addEventListener('click', function() {
   gsap.to(window, .7, {
-    scrollTo: 1400
+    scrollTo: 2300
   })
 })
