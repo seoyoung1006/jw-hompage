@@ -37,6 +37,6 @@ productEl.addEventListener('click', function() {
 })
 emailEl.addEventListener('click', function() {
   gsap.to(window, .7, {
-    scrollTo: 2300
+    scrollTo: 2350
   })
 })

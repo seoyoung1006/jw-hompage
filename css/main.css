@@ -1,18 +1,20 @@
 body {
   height: 3000px;
+  width: 2000px;
 }
 a {
   text-decoration: none;
 }
 /* header */
 header {
-  width: 100%;
+  width: 1900px;
   background-color: rgba(143, 199, 231, 0.8);
   border-bottom: 1px solid rgb(160, 156, 156);
   position: fixed;
   top:0;
   z-index: 9;
   height: 120px;
+  /* left: 200px; */
 }
 header > .inner {
   position: absolute;
@@ -23,27 +25,34 @@ header > .inner {
 header > .inner > .name > .company {
   font-family: 'Song Myung', serif;
   font-size: 35px;
+  left: 980px;
+  position: absolute;
+  top: 10px;
 }
 header > .inner > .name > .type {
   font-family: 'Song Myung', serif;
   font-size: 25px;
+  position: absolute;
+  left: 1030px;
+  top: 20px;
 }
 header .logo {
   height: 80px;
   position: absolute;
-  top: 35px;
-  bottom: 0;
+  top: 5px;
+  bottom: 5px;
   margin: auto;
 }
 header .logo img {
-  height: 80px;
+  height: 100px;
 }
 header .main-menu {
   position: absolute;
-  right: 0;
+  left: 700px;
   z-index: 1;
   display: flex;
   list-style: none;
+  top: 40px;
 }
 header .main-menu .item .item_name {
   padding: 20px;
@@ -58,7 +67,7 @@ header .main-menu .item .item_contents {
   position: fixed;
   display: none;
   top: 120px;
-  left: 1350px;
+  left: 1060px;
   border-radius: 0 0 10px 10px;
   background-color: rgba(143, 199, 231, 0.8);
 }
@@ -95,7 +104,7 @@ header .main-menu .item .item_contents > ul > li:hover {
 .main .about .mtitle {
   font-family: 'Song Myung', serif;
   font-size: 25px;
-  /* left: 120px; */
+  padding: 0 90px;
 }
 .main .about .pic {
   position: absolute;
@@ -152,6 +161,7 @@ header .main-menu .item .item_contents > ul > li:hover {
 .main .product .mtitle {
   font-family: 'Song Myung', serif;
   font-size: 25px;
+  padding: 0 90px;
 }
 /* product1 */
 .main .product .small1 {
@@ -164,7 +174,7 @@ header .main-menu .item .item_contents > ul > li:hover {
   position: absolute;
   width: 350px;
   margin: 0;
-  padding: 0 40px;
+  padding: 0 80px;
   font-size: 20px;
 }
 .main .product .small1 .ppic {
@@ -195,7 +205,7 @@ header .main-menu .item .item_contents > ul > li:hover {
   position: absolute;
   width: 500px;
   margin: 0;
-  padding: 0 50px;
+  padding: 0 80px;
   font-size: 20px;
 }
 .main .product .small2 .ppic {
@@ -226,7 +236,7 @@ header .main-menu .item .item_contents > ul > li:hover {
   position: absolute;
   width: 550px;
   margin: 0;
-  padding: 0 40px;
+  padding: 0 80px;
   font-size: 20px;
 }
 .main .product .small3 .ppic {
@@ -257,7 +267,7 @@ header .main-menu .item .item_contents > ul > li:hover {
   position: absolute;
   width: 550px;
   margin: 0;
-  padding: 0 40px;
+  padding: 0 80px;
   font-size: 20px;
 }
 .main .product .small4 .ppic {
@@ -288,7 +298,7 @@ header .main-menu .item .item_contents > ul > li:hover {
   position: absolute;
   width: 550px;
   margin: 0;
-  padding: 0 40px;
+  padding: 0 80px;
   font-size: 20px;
 }
 .main .product .small5 .ppic {
@@ -317,6 +327,7 @@ header .main-menu .item .item_contents > ul > li:hover {
 .main > .email > .mtitle {
   font-family: 'Song Myung', serif;
   font-size: 25px;
+  padding: 0 90px;
 }
 .main > .email> .container {
   position: relative;
@@ -343,19 +354,19 @@ footer {
   background-color: rgba(143, 199, 231, 0.8);
   top: 2500px;
 }
-footer .foot {
+/* footer .foot {
   position: absolute;
   width: 5px;
   height: 118px;
   left: 1250px;
   background-color: rgb(97, 162, 199);
-}
+} */
 footer .info {
   position: absolute;
-  left: 1240px;
-  top: 7px;
+  left: 530px;
+  top: 30px;
   height: 85px;
-  width: 600px;
+  width: 800px;
 }
 footer .info ul {
   list-style: none;
@@ -363,7 +374,7 @@ footer .info ul {
   padding: 3px 33px;
 }
 footer .info ul li {
-  font-size: 15px;
+  font-size: 17px;
 }
 /* totop */
 #to-top {
