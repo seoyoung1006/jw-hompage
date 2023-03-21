@@ -40,3 +40,35 @@ emailEl.addEventListener('click', function() {
     scrollTo: 2350
   })
 })
+
+const springEl = document.querySelector('#spring');
+const weavingEl = document.querySelector('#weaving');
+const meshEl = document.querySelector('#mesh');
+const ropingEl = document.querySelector('#roping');
+const ropeEl = document.querySelector('#rope');
+
+springEl.addEventListener('click', function() {
+  gsap.to(window, .5, {
+    scrollTo: 700
+  })
+})
+weavingEl.addEventListener('click', function() {
+  gsap.to(window, .5, {
+    scrollTo: 1200
+  })
+})
+meshEl.addEventListener('click', function() {
+  gsap.to(window, .5, {
+    scrollTo: 1560
+  })
+})
+ropingEl.addEventListener('click', function() {
+  gsap.to(window, .5, {
+    scrollTo: 1940
+  })
+})
+ropeEl.addEventListener('click', function() {
+  gsap.to(window, .5, {
+    scrollTo: 2260
+  })
+})
